@@ -1,0 +1,202 @@
+[
+    {
+        "assetClass": "Equity",
+        "counterparty": "Goldman Sachs",
+        "instrumentId": "AAPL",
+        "instrumentName": "Apple Inc.",
+        "tradeDateTime": "2023-04-20T16:30:00",
+        "tradeDetails": {
+            "buySellIndicator": "BUY",
+            "price": 135.55,
+            "quantity": 100
+        },
+        "tradeId": "1",
+        "trader": "John Doe"
+    },
+    {
+        "assetClass": "FX",
+        "counterparty": "JP Morgan",
+        "instrumentId": "USD/JPY",
+        "instrumentName": "US Dollar/Japanese Yen",
+        "tradeDateTime": "2023-04-20T16:35:00",
+        "tradeDetails": {
+            "buySellIndicator": "SELL",
+            "price": 110.20,
+            "quantity": 500
+        },
+        "tradeId": "2",
+        "trader": "Jane Smith"
+    },
+    {
+        "assetClass": "Bond",
+        "counterparty": "Barclays",
+        "instrumentId": "US10YT=RR",
+        "instrumentName": "US 10-Year Treasury Note",
+        "tradeDateTime": "2023-04-20T16:40:00",
+        "tradeDetails": {
+            "buySellIndicator": "BUY",
+            "price": 132.50,
+            "quantity": 200
+        },
+        "tradeId": "3",
+        "trader": "Mark Johnson"
+    },
+    {
+        "assetClass": "Equity",
+        "counterparty": "Morgan Stanley",
+        "instrumentId": "TSLA",
+        "instrumentName": "Tesla Inc.",
+        "tradeDateTime": "2023-04-20T16:45:00",
+        "tradeDetails": {
+            "buySellIndicator": "SELL",
+            "price": 700.50,
+            "quantity": 50
+        },
+        "tradeId": "4",
+        "trader": "Peter Lee"
+    },
+    {
+        "assetClass": "FX",
+        "counterparty": "HSBC",
+        "instrumentId": "GBP/USD",
+        "instrumentName": "British Pound/US Dollar",
+        "tradeDateTime": "2023-04-20T16:50:00",
+        "tradeDetails": {
+            "buySellIndicator": "BUY",
+            "price": 1.3850,
+            "quantity": 1000
+        },
+        "tradeId": "5",
+        "trader": "Amy Chen"
+    },
+    {
+        "assetClass": "Equity",
+        "counterparty": "Credit Suisse",
+        "instrumentId": "MSFT",
+        "instrumentName": "Microsoft Corporation",
+        "tradeDateTime": "2023-04-20T16:55:00",
+        "tradeDetails": {
+            "buySellIndicator": "BUY",
+            "price": 256.80,
+            "quantity": 150
+        },
+        "tradeId": "6",
+        "trader": "Tom Jackson"
+    },
+    {
+      "assetClass": "Equity",
+      "counterparty": "Morgan Stanley",
+      "instrumentId": "AAPL",
+      "instrumentName": "Apple Inc.",
+      "tradeDateTime": "2022-03-11T14:32:00",
+      "tradeDetails": {
+          "buySellIndicator": "BUY",
+          "price": 150.23,
+          "quantity": 100
+      },
+      "tradeId": "7",
+      "trader": "John Smith"
+    },
+    {
+      "assetClass": "FX",
+      "counterparty": "Deutsche Bank",
+      "instrumentId": "USDJPY",
+      "instrumentName": "US Dollar/Japanese Yen",
+      "tradeDateTime": "2022-01-15T10:15:00",
+      "tradeDetails": {
+          "buySellIndicator": "SELL",
+          "price": 103.45,
+          "quantity": 500
+      },
+      "tradeId": "8",
+      "trader": "Jane Doe"
+    },
+    {
+        "assetClass": "Equity",
+        "counterparty": "Goldman Sachs",
+        "instrumentId": "AAPL",
+        "instrumentName": "Apple Inc.",
+        "tradeDateTime": "2023-04-20T16:30:00",
+        "tradeDetails": {
+            "buySellIndicator": "BUY",
+            "price": 135.55,
+            "quantity": 100
+        },
+        "tradeId": "9",
+        "trader": "Jethalal"
+    },
+    {
+    "assetClass": "Equity",
+    "counterparty": "Goldman Sachs",
+    "instrumentId": "AAPL",
+    "instrumentName": "Apple Inc.",
+    "tradeDateTime": "2020-05-13T20:30:30",
+    "tradeDetails": {
+        "buySellIndicator": "BUY",
+        "price": 125.45,
+        "quantity": 100
+    },
+    "tradeId": "10",
+    "trader": "John Smith"
+},
+
+{
+    "assetClass": "Bond",
+    "counterparty": "Morgan Stanley",
+    "instrumentId": "TSLA",
+    "instrumentName": "Tesla Inc.",
+    "tradeDateTime": "2020-05-14T08:15:45",
+    "tradeDetails": {
+        "buySellIndicator": "BUY",
+        "price": 725.0,
+        "quantity": 50
+    },
+    "tradeId": "11",
+    "trader": "Jane Doe"
+},
+
+{
+    "assetClass": "FX",
+    "counterparty": "UBS",
+    "instrumentId": "USD",
+    "instrumentName": "US Dollar",
+    "tradeDateTime": "2020-05-15T10:20:00",
+    "tradeDetails": {
+        "buySellIndicator": "SELL",
+        "price": 0.82,
+        "quantity": 10000
+    },
+    "tradeId": "12",
+    "trader": "Alice Johnson"
+},
+
+{
+    "assetClass": "Equity",
+    "counterparty": "JP Morgan",
+    "instrumentId": "MSFT",
+    "instrumentName": "Microsoft Corporation",
+    "tradeDateTime": "2020-05-15T16:45:30",
+    "tradeDetails": {
+        "buySellIndicator": "SELL",
+        "price": 245.0,
+        "quantity": 200
+    },
+    "tradeId": "13",
+    "trader": "Bob Williams"
+},
+    {
+    "assetClass": "Equity",
+    "counterparty": "Goldman Sachs",
+    "instrumentId": "AAPL",
+    "instrumentName": "Apple Inc.",
+    "tradeDateTime": "2020-05-13T22:50:55",
+    "tradeDetails": {
+        "buySellIndicator": "SELL",
+        "price": 350.5,
+        "quantity": 1000
+    },
+    "tradeId": "14",
+    "trader": "John Smith"
+}
+
+  ]
