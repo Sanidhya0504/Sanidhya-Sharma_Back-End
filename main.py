@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Query
+from fastapi import FastAPI, Query, HTTPException
 from typing import Optional
 import json
 import datetime as dt
@@ -25,22 +25,31 @@ with open('data.json', 'r') as f:
 def listing_trades():
     return data
 
+
 # Single trade
 @app.get('/trade/{trade_id}')
 def single_trade(trade_id: str):
+    if not trade_id.isnumeric():
+        raise HTTPException(status_code=400, detail="Bad Request, tradeId can only contain numbers")
+    if trade_id not in data:
+        raise HTTPException(status_code=404, detail="Id Not Found")
+
     trade = [t for t in data if t['tradeId'] == trade_id]
     return trade[0] if len(trade) > 0 else {}
 
 
 # Searching trades
-@app.get('/searchTrade')
+@app.get('/searchTrades')
 def search_trade(search: str = Query(title="search parameter", description="Takes the values of any "
                                                                            "of the following counterparty "
                                                                            "instrumentId "
                                                                            "instrumentName "
                                                                            "trader")):
+
     trades = [t for t in data if t['counterparty'] == search or t['instrumentId'] == search or
               t['instrumentName'] == search or t['trader'] == search]
+    if len(trades) == 0:
+        raise HTTPException(status_code=404, detail="Trades Not Found, check for typos or upper and lower case")
     return trades
 
 
