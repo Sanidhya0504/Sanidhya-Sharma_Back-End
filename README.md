@@ -4,7 +4,7 @@ A REST API with endpoints serving Trade data from a mocked database.
 ### Link to FrontEnd Engineer Assignment
 [https://github.com/Sanidhya0504/Sanidhya-Sharma-Front-End](https://github.com/Sanidhya0504/Sanidhya-Sharma-Front-End)
 # API Developer Assessment
-###Deployment: 
+### Deployment: 
 [https://backend-assignment-steeleye.onrender.com/docs](https://backend-assignment-steeleye.onrender.com/docs)
 ## Database
 A json file has been used to store data and act as a mocked database. The file contains 14 trades generated according to the provided schema model.
